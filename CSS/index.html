@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction au CSS</title>
+    <style>
+        p, .important{
+            color:red;
+        }
+        #labrador{
+            color:olive;
+        }
+        .gris{
+            color:grey;
+        }
+        .centre{
+            text-align: center;
+        }
+        article p{
+            color:hotpink;
+        }
+        .important{
+            font-weight: 800;
+        }
+        #heritage{
+            color: brown;
+        }
+        #rouge{
+            color:firebrick;
+        }
+        .vert{
+            color:green;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- Première méthode -->
+    <p style="color:blue;">Un peu de texte</p>
+    <p>Un paragraphe qui sera rouge</p>
+    <p>Un autre paragraphe</p>
+    <h1>Titre 1</h1>
+    <h2>Titre 2</h2>
+    <article id="labrador">Ceci est un article sur les labradors</article>
+    <article class="gris" class="centre">Ce texte est gris</article>
+    <article>
+        <p>
+            Ceci est un paragraphe dans un article, il doit être affiché en hotpink
+        </p>
+
+    </article>
+    <p>Ceci est un message <span class="important">important!</span></p>
+    <section id="heritage">
+        <h2>Héritage</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis congue magna. Maecenas vulputate pulvinar dolor, in maximus ipsum molestie a. Proin feugiat eu magna in ornare. Proin et lorem et neque eleifend tristique. Morbi rutrum lectus ut lacus egestas, id maximus eros tristique. Pellentesque rhoncus massa massa, eu vehicula lacus ultrices in. Vivamus egestas posuere cursus. Sed at sapien cursus ex tempor congue ac in enim. Sed sed dapibus lectus. Aenean nulla est, bibendum et sapien eget, tempor condimentum erat. Fusce tortor turpis, laoreet id posuere ut, aliquet ut ipsum. Aliquam elementum est felis, a lacinia nisl dapibus a. Curabitur aliquet venenatis nibh, a faucibus tortor. Donec erat dolor, dignissim a lorem a, sodales efficitur velit. Nulla tincidunt viverra lacinia. 
+        </p>
+        <p> Suspendisse maximus ullamcorper aliquam. Pellentesque sed sem sem. Aliquam pretium consequat magna, nec vulputate turpis mattis ut. Pellentesque vehicula, sapien ut consequat iaculis, nibh felis aliquam orci, ac rhoncus purus nisi et mauris. Mauris eleifend nulla sed metus mattis facilisis. Praesent est arcu, mollis at laoreet aliquam, mattis vel justo. In eu semper felis. Donec sit amet egestas massa. Fusce eget ante dolor. Phasellus neque velit, auctor ut mi sit amet, consectetur mattis dui. Proin hendrerit vel orci id porttitor. Aenean bibendum elementum nulla at pharetra. Donec consectetur libero neque, a venenatis neque imperdiet nec. Nulla sit amet tellus sollicitudin velit euismod consectetur. Aenean posuere interdum suscipit. Donec vitae fringilla dui, non porttitor nunc. </p>
+    </section>
+    <section id="priorite">
+        <p id="rouge" class="vert">J'ai un id et une classe</p>
+    </section>
+</body>
+</html>
