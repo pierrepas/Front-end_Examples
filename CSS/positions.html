@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les positions</title>
+    <style>
+        div {
+            border: 3px solid black;
+        }
+
+        .static {
+            border-color: red;
+            position: static;
+        }
+
+        .relative {
+            border-color: blue;
+            position: relative;
+            top: 10px;
+            left: 30px;
+        }
+
+        .fixed {
+            border-color: green;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .absolute {
+            border-color: blueviolet;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="static">
+        <h2>Position: static;</h2>
+        <p>L'élement sera affiché normalement suivat le flow de la page.</p>
+        Cet élément est: static;
+    </div>
+    <div class="relative">
+        <h2>Position: relative;</h2>
+        <p>L'élement sera affiché relativement par rapport à sa position d'origine.</p>
+        Cet élément est: relative;
+    </div>
+    <div class="fixed">
+        <h2>Position: fixe;</h2>
+        <p>L'élement sera affiché de manière absolue par rapport au navigateur.Utile pour les menus.</p>
+        Cet élément est: relative;
+    </div>
+    <div class="absolute">
+        <h2>Position: fixe;</h2>
+        <p>L'élement sera affiché de manière absolue par rapport à la page web.</p>
+        Cet élément est: absolute;
+    </div>
+    <p>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus vestibulum dui vehicula bibendum. Nunc eget
+        nisl sagittis, elementum libero nec, euismod neque. Ut nec tempus felis. Maecenas lacinia a lorem et convallis.
+        Suspendisse vel urna orci. Nullam pellentesque ornare arcu ac posuere. Proin vitae egestas massa. Vivamus et
+        diam id arcu gravida blandit. Nam tincidunt eu orci non lacinia. In laoreet nibh quis arcu suscipit aliquam.
+        Vivamus lectus urna, commodo ac mi eu, gravida rhoncus ipsum.
+    </p>
+    <p>
+        Duis in libero et neque placerat rutrum non eu mi. Proin vitae orci imperdiet nunc aliquam faucibus. Vestibulum
+        luctus leo mollis justo elementum ullamcorper. Ut nec ante dapibus, interdum metus nec, pellentesque orci. Cras
+        molestie quam non ultricies mattis. Aliquam erat volutpat. Ut venenatis diam consequat elit scelerisque posuere.
+        Nulla molestie justo orci.</p>
+
+    <p>
+        Nullam convallis pulvinar magna. Donec gravida non quam id consectetur. Nullam imperdiet neque quam, sit amet
+        cursus lectus dignissim at. Maecenas vel feugiat dolor, eu viverra ex. Ut quis risus elit. Pellentesque eu
+        pulvinar mauris, a lobortis est. Cras at ex non mauris vestibulum sagittis ut ut purus. Phasellus tempus odio
+        sit amet mauris feugiat, id facilisis purus blandit. Curabitur dictum tempor mi, vel imperdiet libero gravida
+        et. Aenean nec pellentesque nibh. Mauris vestibulum justo sit amet pharetra tincidunt. Aenean vulputate porta
+        congue. Praesent placerat, purus eget commodo molestie, ante augue tincidunt neque, eget vehicula augue dolor
+        sed nulla. Praesent efficitur, tortor eu luctus faucibus, nisl lectus fringilla nibh, vitae finibus urna est sit
+        amet lectus. Etiam sagittis augue risus, in varius urna cursus sit amet.</p>
+
+
+    <p> Nunc at justo non orci vehicula rutrum. Aliquam id risus aliquet, commodo arcu aliquet, blandit lorem. Proin
+        volutpat, turpis vitae maximus vestibulum, odio ex lobortis ante, id porta nisi urna at eros. Suspendisse
+        rhoncus magna quis suscipit pharetra. Donec lacinia odio at justo pretium placerat. Fusce mattis pellentesque
+        lobortis. Nullam porttitor vehicula purus ac consequat. Sed faucibus ante ac nulla ornae rhoncus.</p>
+
+    <p> Curabitur a porttitor arcu, nec sodales lacus. Nulla dictum turpis vel lectus facilisis, vitae dictum diam
+        faucibus. Praesent quam purus, porta ac ex vulputate, faucibus mattis turpis. Nullam sollicitudin, felis nec
+        semper tincidunt, est purus rutrum sapien, eu posuere massa nisi in sapien. Interdum et malesuada fames ac ante
+        ipsum primis in faucibus. Curabitur egestas hendrerit dapibus. Maecenas sed ultrices sapien. Nunc vehicula
+        pulvinar massa sit amet condimentum. Vivamus a neque nisi. Aliquam dapibus quam vel arcu viverra sagittis. In
+        hac habitasse platea dictumst. Nunc nec diam nulla. Sed id auctor lectus. </p>
+
+
+</body>
+
+</html>
