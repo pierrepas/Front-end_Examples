@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La vraie page d'accueil de Google</title>
+    <style>
+        * {
+            font-family: Arial;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        li{
+            display: inline-block;
+            padding-left: 15px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        header{
+            padding-top: 8px;
+            padding-right: 20px;
+            text-align: right;
+            font-size: 13px;
+        }
+        .bgBleu a{
+            background-color: #4683ea;
+            color:white;
+            padding: 8px;
+            font-weight: bold;
+            border-radius: 2px;
+            font-size: 13px;
+        }
+        main{
+            text-align: center;
+            margin-top: 50px;
+        }
+        [type="search"]{
+            display: block;
+            text-align: center;
+            margin: 5px auto;
+            width: 500px;
+            height: 30px;
+            border-radius: 24px;
+            border: 1px solid #dfe1e5;
+            font-size: 15px;
+            padding: 20px;
+        }
+        [type="submit"]{
+            font-size: 14px;
+            border: none;
+            padding: 10px;
+            margin: 20px 3px;
+            background-color: #EEE;
+            border-radius: 2px;
+            color: #555555
+        }
+        footer{
+            color:#5f6368;
+            background-color: #EEEEEE;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+            margin-right: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#" >Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li class="bgBleu"><a href="#">Connexion</a></li>
+        </ul>
+    </header>
+    <main>
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+        alt="Logo google" width=213 >
+        <form action="recherche.php">
+            <input type="search">
+            <input type="submit" value="Recherche Google">
+            <input type="submit" value="J'ai de la chance">
+        </form>
+    </main>
+    <footer>
+        <ul class="left">
+            <li><a href="#">Publicité</a></li>
+            <li><a href="#">Entreprise</a></li>
+            <li><a href="#">A propos</a></li>
+        </ul>
+        <ul class="right">
+            <li><a href="#">Confidentialité</a></li>
+            <li><a href="#">Conditions</a></li>
+            <li><a href="#">Paramètres</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
